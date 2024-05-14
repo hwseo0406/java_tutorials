@@ -4,7 +4,7 @@ class Calculator{
     int left, right;
       
     public void setOprands(int left, int right){
-        this.left = left;
+        this.left = left;  //이거 this 뭔지 알아야돼..
         this.right = right;
     }
       
