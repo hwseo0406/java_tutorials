@@ -5,7 +5,7 @@ class Calculator{
       
     public void setOprands(int left, int right){
         this.left = left;  //이거 this 뭔지 알아야돼..
-        this.right = right;
+        this.right = right; //이게뭐야
     }
       
     public void sum(){
@@ -27,7 +27,7 @@ public class CalculatorDemo4 {
         c1.avg();       
           
         Calculator c2 = new Calculator();
-        c2.setOprands(20, 40);
+        c2.setOprands(20, 40); 
         c2.sum();       
         c2.avg();
     }
