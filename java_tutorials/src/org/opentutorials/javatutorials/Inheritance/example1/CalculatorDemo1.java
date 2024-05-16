@@ -17,7 +17,7 @@ class Calculator {
     }
 }
 
-    class SubstractionableCalculator extends Calculator {
+    class SubtractableCalculator extends Calculator {
         public void subtract() {
             System.out.println(this.left - this.right);
         }
@@ -28,7 +28,7 @@ class Calculator {
 
 public class CalculatorDemo1 {
     public static void main(String[] args) {
-        SubstractionableCalculator c1 = new SubstractionableCalculator();
+        SubtractableCalculator c1 = new SubtractableCalculator();
         c1.setOprands(10, 20);
         c1.sum();
         c1.avg();
